@@ -1,0 +1,15 @@
+/Users/NathaliaLaudano/Library/Mobile Documents/com~apple~CloudDocs/Programação/Projects/NatBank/bin/Debug/net5.0/NatBank.deps.json
+/Users/NathaliaLaudano/Library/Mobile Documents/com~apple~CloudDocs/Programação/Projects/NatBank/bin/Debug/net5.0/NatBank.runtimeconfig.json
+/Users/NathaliaLaudano/Library/Mobile Documents/com~apple~CloudDocs/Programação/Projects/NatBank/bin/Debug/net5.0/NatBank.runtimeconfig.dev.json
+/Users/NathaliaLaudano/Library/Mobile Documents/com~apple~CloudDocs/Programação/Projects/NatBank/bin/Debug/net5.0/NatBank.dll
+/Users/NathaliaLaudano/Library/Mobile Documents/com~apple~CloudDocs/Programação/Projects/NatBank/bin/Debug/net5.0/ref/NatBank.dll
+/Users/NathaliaLaudano/Library/Mobile Documents/com~apple~CloudDocs/Programação/Projects/NatBank/bin/Debug/net5.0/NatBank.pdb
+/Users/NathaliaLaudano/Library/Mobile Documents/com~apple~CloudDocs/Programação/Projects/NatBank/obj/Debug/net5.0/NatBank.csproj.AssemblyReference.cache
+/Users/NathaliaLaudano/Library/Mobile Documents/com~apple~CloudDocs/Programação/Projects/NatBank/obj/Debug/net5.0/NatBank.GeneratedMSBuildEditorConfig.editorconfig
+/Users/NathaliaLaudano/Library/Mobile Documents/com~apple~CloudDocs/Programação/Projects/NatBank/obj/Debug/net5.0/NatBank.AssemblyInfoInputs.cache
+/Users/NathaliaLaudano/Library/Mobile Documents/com~apple~CloudDocs/Programação/Projects/NatBank/obj/Debug/net5.0/NatBank.AssemblyInfo.cs
+/Users/NathaliaLaudano/Library/Mobile Documents/com~apple~CloudDocs/Programação/Projects/NatBank/obj/Debug/net5.0/NatBank.csproj.CoreCompileInputs.cache
+/Users/NathaliaLaudano/Library/Mobile Documents/com~apple~CloudDocs/Programação/Projects/NatBank/obj/Debug/net5.0/NatBank.dll
+/Users/NathaliaLaudano/Library/Mobile Documents/com~apple~CloudDocs/Programação/Projects/NatBank/obj/Debug/net5.0/ref/NatBank.dll
+/Users/NathaliaLaudano/Library/Mobile Documents/com~apple~CloudDocs/Programação/Projects/NatBank/obj/Debug/net5.0/NatBank.pdb
+/Users/NathaliaLaudano/Library/Mobile Documents/com~apple~CloudDocs/Programação/Projects/NatBank/obj/Debug/net5.0/NatBank.genruntimeconfig.cache
