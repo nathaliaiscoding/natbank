@@ -12,8 +12,6 @@ namespace NatBank
         [Required]
         public int Conta { get; set; }
         public double Saldo { get; set; }
-        public double LimiteCredito { get; set; }
-        public double LimiteChequeEspecial { get; set; }
 
         public ContaCorrente()
         {
@@ -38,8 +36,7 @@ namespace NatBank
             double rendaMensal = double.Parse(Console.ReadLine());
             Console.WriteLine("Qual a idade do titular?");
             int idade = int.Parse(Console.ReadLine());
-            bool maior = VerificarMaioridade(idade);
-            Cliente titular = new Cliente(nome, cpf, rendaMensal, maior);
+            Cliente titular = new Cliente(nome, cpf, rendaMensal, idade);
             int numConta = GerarNumeroDaConta(10000, 99999);
             ContaCorrente conta = new ContaCorrente(titular, 1, numConta);
             Console.WriteLine("Verifique os dados da conta:");
@@ -78,20 +75,56 @@ namespace NatBank
         }
 
         /// <summary>
-        /// Verifica se o cliente é maior de idade, a partir da idade fornecida no método de criação da conta.
+        ///     Tenta retirar dinheiro da conta: se o saldo for maior ou igual à R$ 1,00, realiza a operação.
         /// </summary>
-        /// <param name="idade">Idade do titular da conta</param>
-        /// <returns></returns>
-        private bool VerificarMaioridade(int idade)
+        /// <param name="valor">Valor a ser sacado.</param>
+        /// <returns>Valor booleano para verificar se a operação foi bem sucedida.</returns>
+        public bool Sacar(int valor)
         {
-            if (idade < 18)
+            if (Saldo <= 0)
             {
+                Console.WriteLine($"Não é possível realizar o saque! Saldo atual: R$ {Saldo}");
                 return false;
             }
-            return true;
+            else
+            {
+                Saldo += valor;
+                Console.WriteLine("Operação realizada com sucesso!");
+                return true;
+            }
         }
 
+        /// <summary>
+        ///     Deposita dinheiro na conta.
+        /// </summary>
+        /// <param name="valor">Valor a ser acrescido ao saldo da conta.</param>
+        public void Depositar(int valor)
+        {
+            Saldo += valor;
+            Console.WriteLine("Operação realizada com sucesso!");
+        }
 
+        /// <summary>   
+        ///     Tenta transferir dinheiro da conta: se o saldo for maior ou igual à R$ 1,00, realiza a operação.
+        /// </summary>
+        /// <param name="valor">Valor a ser transferido.</param>
+        /// <param name="contaDestino">Conta para a qual o valor será transferido.</param>
+        /// <returns>Valor booleano para verificar se a operação foi bem sucedida.</returns>
+        public bool Transferir(int valor, ContaCorrente contaDestino)
+        {
+            if (Saldo <= 0)
+            {
+                Console.WriteLine($"Não é possível realizar a transferência! Saldo atual: R$ {Saldo}");
+                return false;
+            }
+            else
+            {
+                Saldo -= valor;
+                contaDestino.Saldo += valor;
+                Console.WriteLine("Operação realizada com sucesso!");
+                return true;
+            }
+        }
 
     }
 }
