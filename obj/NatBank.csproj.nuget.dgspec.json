@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/NathaliaLaudano/Library/Mobile Documents/com~apple~CloudDocs/Programação/Projects/NatBank/natbank/NatBank.csproj": {}
+    "/Users/NathaliaLaudano/Library/Mobile Documents/com~apple~CloudDocs/Programação/Projects/NatBank/NatBank.csproj": {}
   },
   "projects": {
-    "/Users/NathaliaLaudano/Library/Mobile Documents/com~apple~CloudDocs/Programação/Projects/NatBank/natbank/NatBank.csproj": {
+    "/Users/NathaliaLaudano/Library/Mobile Documents/com~apple~CloudDocs/Programação/Projects/NatBank/NatBank.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/NathaliaLaudano/Library/Mobile Documents/com~apple~CloudDocs/Programação/Projects/NatBank/natbank/NatBank.csproj",
+        "projectUniqueName": "/Users/NathaliaLaudano/Library/Mobile Documents/com~apple~CloudDocs/Programação/Projects/NatBank/NatBank.csproj",
         "projectName": "NatBank",
-        "projectPath": "/Users/NathaliaLaudano/Library/Mobile Documents/com~apple~CloudDocs/Programação/Projects/NatBank/natbank/NatBank.csproj",
+        "projectPath": "/Users/NathaliaLaudano/Library/Mobile Documents/com~apple~CloudDocs/Programação/Projects/NatBank/NatBank.csproj",
         "packagesPath": "/Users/NathaliaLaudano/.nuget/packages/",
-        "outputPath": "/Users/NathaliaLaudano/Library/Mobile Documents/com~apple~CloudDocs/Programação/Projects/NatBank/natbank/obj/",
+        "outputPath": "/Users/NathaliaLaudano/Library/Mobile Documents/com~apple~CloudDocs/Programação/Projects/NatBank/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/NathaliaLaudano/.nuget/NuGet/NuGet.Config"
