@@ -1,4 +1,5 @@
 ﻿using System;
+using NatBank.Contas;
 
 namespace NatBank
 {
@@ -6,8 +7,8 @@ namespace NatBank
     {
         static void Main(string[] args)
         {
-            // CriarConta();
-            CriarFuncionarios();
+            CriaConta();
+            // CriarFuncionarios();
         }
         public static void CriarFuncionarios()
         {
@@ -62,7 +63,7 @@ namespace NatBank
             var resposta = Console.ReadLine();
             if (resposta == "C" || resposta == "c")
             {
-                ContaCorrente novaConta = new ContaCorrente();
+                Conta novaConta = new Conta();
                 novaConta.CriarConta();
                 Console.WriteLine("Obrigada por acessar o NatBank!");
             }

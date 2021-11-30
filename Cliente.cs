@@ -1,40 +1,33 @@
-using System.ComponentModel.DataAnnotations;
+using NatBank.Contas;
 
 namespace NatBank
 {
     public class Cliente
     {
-        [Required]
-        public string Nome { get; set; }
-
-        [Required]
+        // public bool AceitaTermos { get; set; }
         public string CPF { get; set; }
-        public string Profissao { get; set; }
-        [Required]
+        public string Nome { get; set; }
+        public byte Idade { get; set; }
+        public string Email { get; set; }
+        public string NomeCompletoMae { get; set; }
+        public string CEP { get; set; }
+        public string Endereco { get; set; }
+        public string EnderecoRua { get; set; }
+        public string EnderecoNumero { get; set; }
+        public string EnderecoComplemento { get; set; }
+        public string EnderecoCidade { get; set; }
+        public string EnderecoEstado { get; set; }
+        public string EnderecoBairro { get; set; }
+        public string EnderecoEntrega { get; set; }
+        public int Senha { get; set; }
+        public byte CelularDDD { get; set; }
+        public int CelularNumero { get; set; }
         public double RendaMensal { get; set; }
-        [Required]
         public bool MaiorDeIdade { get; set; }
-
-        public Cliente(string nome, string cpf, double rendaMensal, int idade)
+        public Conta Conta { get; set; }
+        public Cliente()
         {
-            Nome = nome;
-            CPF = cpf;
-            RendaMensal = rendaMensal;
-            MaiorDeIdade = VerificarMaioridade(idade);
         }
 
-        /// <summary>
-        /// Verifica se o cliente é maior de idade, a partir da idade fornecida no método de criação da conta.
-        /// </summary>
-        /// <param name="idade">Idade do titular da conta</param>
-        /// <returns></returns>
-        private bool VerificarMaioridade(int idade)
-        {
-            if (idade < 18)
-            {
-                return false;
-            }
-            return true;
-        }
     }
 }

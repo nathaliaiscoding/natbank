@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "B/Zqd8zUV4hjaFqQLHntEOAePJX5EotvVH3smWZdKpaA5yBiVGVvWfRhUO9GvSenXtRVOaiRJ1vFO8RqWYkNlg==",
+  "dgSpecHash": "hlt9MB0+R6h96uHWkAv5FqpULfrr5jIGGJScvd6qByCsBuIOs7OLPYaecTPwn35zFkn+0LdgUNUKY/B/UssPqQ==",
   "success": true,
   "projectFilePath": "/Users/NathaliaLaudano/Library/Mobile Documents/com~apple~CloudDocs/Programação/Projects/NatBank/NatBank.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "/Users/NathaliaLaudano/.nuget/packages/microsoft.netcore.app.host.osx-x64/5.0.12/microsoft.netcore.app.host.osx-x64.5.0.12.nupkg.sha512"
+  ],
   "logs": []
 }

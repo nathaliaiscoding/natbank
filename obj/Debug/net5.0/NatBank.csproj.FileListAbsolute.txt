@@ -28,3 +28,4 @@
 /Users/NathaliaLaudano/Library/Mobile Documents/com~apple~CloudDocs/Programação/Projects/NatBank/natbank/obj/Debug/net5.0/ref/NatBank.dll
 /Users/NathaliaLaudano/Library/Mobile Documents/com~apple~CloudDocs/Programação/Projects/NatBank/natbank/obj/Debug/net5.0/NatBank.pdb
 /Users/NathaliaLaudano/Library/Mobile Documents/com~apple~CloudDocs/Programação/Projects/NatBank/natbank/obj/Debug/net5.0/NatBank.genruntimeconfig.cache
+/Users/NathaliaLaudano/Library/Mobile Documents/com~apple~CloudDocs/Programação/Projects/NatBank/bin/Debug/net5.0/NatBank
